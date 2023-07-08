@@ -1,0 +1,30 @@
+// Admin ui buttons
+.admin-customize .themes-list-header {
+  .tab {
+    padding: 0.75em 0.5em;
+    border-radius: 0;
+  }
+  .themes-tab {
+    border-top-left-radius: $radius_button;
+  }
+  .components-tab {
+    border-top-right-radius: $radius_button;
+  }
+}
+
+// Nav pills
+.nav-pills > li > a {
+  padding: $padding_button;
+}
+
+// Adjust user icon on auth buttons
+.d-header .panel.clearfix .header-buttons .login-button {
+  display: flex;
+  gap: 5px;
+}
+
+// Move auth buttons to the right of the header
+.anon .d-header .panel.clearfix {
+  display: flex;
+  flex-direction: row-reverse;
+}

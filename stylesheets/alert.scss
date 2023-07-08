@@ -1,0 +1,16 @@
+// Alert banners
+.alert {
+  border-radius: $radius_alert;
+  padding: $padding_alert;
+  span {
+    font-size: 1.075rem;
+    line-height: 1.5;
+  }
+}
+.consent_banner {
+  display: flex;
+  justify-content: space-between;
+  .close {
+    position: unset;
+  }
+}

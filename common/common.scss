@@ -1,0 +1,35 @@
+:root {
+  --d-border-radius: #{$radius_default};
+  --d-button-border-radius: #{$radius_button};
+  --d-nav-pill-border-radius: #{$radius_pill};
+  --d-input-border-radius: #{$radius_input};
+}
+
+@import "button";
+@import "alert";
+
+//Composer
+.d-editor-button-bar .btn {
+  border-radius: 0;
+}
+.d-editor-textarea-wrapper {
+  overflow: hidden;
+}
+
+// User menu
+.user-menu.revamped .tabs-list .btn {
+  border-radius: 0;
+}
+
+// User profile navigation
+.new-user-wrapper .user-navigation .nav-pills li a {
+  border-radius: 0;
+}
+
+.new-user-wrapper .user-navigation-secondary {
+  display: flex;
+  align-items: center;
+  > * {
+    padding-top: 0 !important;
+  }
+}
