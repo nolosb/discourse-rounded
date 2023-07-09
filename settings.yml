@@ -1,14 +1,14 @@
 radius_default:
-  default: "var(--d-border-radius)"
+  default: 'var(--d-border-radius)'
 radius_button:
-  default: "var(--d-button-border-radius)"
+  default: 'var(--d-button-border-radius)'
 radius_pill:
-  default: "var(--d-button-border-radius)"
+  default: 'var(--d-button-border-radius)'
 radius_input:
-  default: "var(--d-button-border-radius)"
+  default: 'var(--d-button-border-radius)'
 radius_alert:
-  default: "var(--d-border-radius)"
+  default: 'var(--d-border-radius)'
 padding_button:
-  default: "0.5em 0.65em"
+  default: '0.5em 0.65em'
 padding_alert:
-  default: "1em 1.5em"
+  default: '1em 1.5em'

@@ -5,8 +5,8 @@
   --d-input-border-radius: #{$radius_input};
 }
 
-@import "button";
-@import "alert";
+@import 'button';
+@import 'alert';
 
 //Composer
 .d-editor-button-bar .btn {
