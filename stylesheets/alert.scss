@@ -1,5 +1,6 @@
 // Alert banners
-.alert {
+.alert,
+#banner {
   border-radius: $radius_alert;
   padding: $padding_alert;
   span {
